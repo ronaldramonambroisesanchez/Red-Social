@@ -1,0 +1,64 @@
+#map{
+   height: 500px;
+   width: 100%;
+}
+
+.letra3{
+border: 6px #4D5372 dotted;
+color: white;
+font-style: italic;
+text-shadow: 2px, 2px, 2px, #000;
+}
+
+.body2{
+	
+}
+body{
+	background-color: #C7CAA3;
+}
+
+.formfondo{
+		border-radius: 15px;
+		border-color: black;
+		background-color: #F07149;
+		box-shadow: 5px 5px 5px black;
+		margin-left: 500px;
+		margin-right: 500px;
+		border-width: 5px;
+	}
+	.margintext{
+		margin-right: 25px;
+	}
+	.animacion:hover{
+		animation: bounce 1s linear;
+	}
+	@keysframes bounce{
+		20%,50%,80% to{
+			transform: translateY(0);
+		}
+		40%{
+			transform:  translateY(-30px);
+		}
+		70%{
+			transform: translateY(-15px);
+		}
+		90%{
+			transform:  translateY(-4px);
+		}
+	}
+
+	.botoncerrar{
+		align-items: right;
+		align-self: right;
+		align-content: right;
+	}
+
+	.input2{
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
+	.imgcentrada{
+display:block;
+margin:auto;
+}
